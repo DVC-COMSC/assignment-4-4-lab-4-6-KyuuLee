@@ -23,7 +23,7 @@
     {
       "name": "T3",
       "setup": "",
-      "run": "g++ -stgd=c++11 main.cpp && ./a.out",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "3",
       "output": "Pi times radius squared times height",
       "comparison": "included",
@@ -43,7 +43,7 @@
     {
       "name": "T5",
       "setup": "",
-      "run": "g++ -std=c++11 main.cpp",
+      "run": "g++ -std=c++11 main.cpp && ./a.out",
       "input": "5",
       "output": "Not good with numbers",
       "comparison": "included",
